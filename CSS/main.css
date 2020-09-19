@@ -1,2 +1,21 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    margin: 0;
+    background-color: Violet;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+}
+
+.logo-title {
+    /* background-color:  green; */
+}
+
+.media {
+    /* background-color: green; */
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
