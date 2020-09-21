@@ -18,12 +18,13 @@ body {
 }
 
 .container {
-    min-width: 800px;
-    max-width: 1000px;
+    margin: auto;
+    max-width: 100%;
+    /* width: 90rem; */
 }
 
 .logo-title {
-    margin: 4rem 4rem 4rem 6rem;
+    margin: 5rem;
 }
 
 .content {
@@ -31,7 +32,7 @@ body {
 }
 
 .mockup-img1 {
-    margin-left: 6rem;
+    margin-left: 5rem;
 
 }
 
@@ -44,6 +45,7 @@ body {
     flex: 0.6;
     margin: 2rem 0 6rem 4rem;
     padding: 1rem;
+    font-size: 1.05rem;
 }
 
 .tage-line {
@@ -99,6 +101,11 @@ body {
         background-size: cover;
         background-color: #674baf;
         font-weight: none;
+    }
+
+    .container {
+        min-width: 800px;
+        max-width: 1000px;
     }
 
     .logo-title {
