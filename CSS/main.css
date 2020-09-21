@@ -18,28 +18,31 @@ body {
 }
 
 .container {
-    margin: auto;
-    min-width: 100%;
-    width: 90rem;
+    min-width: 800px;
+    max-width: 1000px;
 }
 
 .logo-title {
-    margin: 4rem;
+    margin: 4rem 4rem 4rem 6rem;
 }
 
 .content {
     display: flex;
 }
 
+.mockup-img1 {
+    margin-left: 6rem;
+
+}
+
 .mockup-img {
-    margin: 4rem;
-    width: 80%;
-    height: 90%;
+    width: fit-content;
+    height: fit-content;
 }
 
 .page-info  {
     flex: 0.6;
-    margin: 6rem 0 6rem 0;
+    margin: 2rem 0 6rem 4rem;
     padding: 1rem;
 }
 
@@ -68,10 +71,12 @@ body {
 }
 
 .media-links {
+    display: inline-block;
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
     margin-right: 4rem;
+    /* margin-bottom: 6rem; */
 }
 
 .media-links a {
@@ -93,44 +98,52 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         background-color: #674baf;
+        font-weight: none;
     }
 
     .logo-title {
-        margin: 3rem;
+        margin: 4rem 4rem 4rem 4rem;
     }
-
+    
     .content {
         flex-direction: column;
     }
     
+    .mockup-img1 {
+        margin-left: 4rem;
+
+    }
+
     .mockup-img {
-        margin: 3rem;
-        max-width:700px;
         width: 80%;
-        height: 90%;
+        height: 80%;
     }
     
     .page-info  {
-        text-align: center;
+        min-width: 500px;
         max-width: 700px;
-        margin: 0 0.625rem;
+        text-align: center;
+        margin: 0;
+        padding: 1rem;
     }
     
     .tage-line {
+        margin-top: 5.5rem;
         font-family: 'Poppins', sans-serif;
-        font-size: 3.5rem;
+        font-size: 3.55rem;
         font-weight: 400, 700;
     }
     
     .tage-info {
-        font-size: 1.7rem;
-        margin-bottom: 5%;
+        font-size: 2.025rem;
+        margin: 1.5rem;
+        opacity: 0.8;
     }
 
     .media-links {
         display: flex;
         justify-content: center;
         list-style-type: none;
-        margin-top: 10%;
+        margin-top: 5%;
     }
 }
